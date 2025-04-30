@@ -21,11 +21,17 @@ body {
 
 
 .animal-card {
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s, scale 0.3s;
+
 }
 .animal-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+
+    transform:  translateX(-10px)  scale(1.05);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+
+
+
+
 }
 .animal-card img {
     height: 250px;
